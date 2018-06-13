@@ -1,0 +1,16 @@
+{
+  "name": "upkeepr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joe9663/upkeepr.git",
+  "author": "joe9663",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.12.0"
+  }
+}
