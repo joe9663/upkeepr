@@ -1,14 +1,10 @@
 import * as m from 'mithril';
-import { HelloWorld } from './helloworld';
 
-export class App {
-	view() {
-		return (
-			<div>
-				<HelloWorld name="Test" />
-			</div>
-		)
-	}
-}
+var root = document.body
 
-m.mount(document.body, App);
+m.render(root, [
+    m("main", [
+        m("h1", {class: "title"}, "upkeepr"),
+        m("p", {class: 'subtitle'}, "you know, nerd stuff"),
+    ])
+])
